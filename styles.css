@@ -352,3 +352,48 @@ body {
 .reveal.active.fade-right {
     animation: slideInFromRight 0.6s ease-out;
 }
+
+/* About Dropdown Styles */
+.about__dropdown {
+    margin-top: 1rem;
+    position: relative;
+}
+
+.about__dropdown-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease, padding 0.3s ease;
+    padding: 0 1rem;
+}
+
+.about__dropdown-toggle:checked ~ .about__dropdown-content {
+    max-height: 500px;
+    padding: 1rem;
+    border-left: 3px solid var(--accent-color);
+    margin-top: 0.5rem;
+}
+
+.about__dropdown-label {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: var(--accent-color);
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.about__dropdown-label:hover {
+    text-decoration: underline;
+}
+
+.about__dropdown-less {
+    display: none;
+}
+
+.about__dropdown-toggle:checked ~ .about__dropdown-label .about__dropdown-more {
+    display: none;
+}
+
+.about__dropdown-toggle:checked ~ .about__dropdown-label .about__dropdown-less {
+    display: inline;
+}

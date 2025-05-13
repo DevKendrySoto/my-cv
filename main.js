@@ -15,4 +15,11 @@
       }
   }
 
+  document.querySelector('.about__dropdown-toggle').addEventListener('change', function(e) {
+    const content = document.querySelector('.about__dropdown-content');
+    if (e.target.checked) {
+        content.style.maxHeight = content.scrollHeight + 'px';
+    }
+});
+
  

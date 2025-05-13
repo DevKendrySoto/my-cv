@@ -37,7 +37,21 @@
         <section id="about" class="section reveal fade-left">
             <h2 class="section__title">About Me</h2>
             <div class="section__content">
-                <p>Welcome to my professional portfolio. I'm a passionate web developer with expertise in creating modern, responsive websites and applications. With 5 years of experience in frontend development, I focus on delivering clean, efficient code and exceptional user experiences.</p>
+                <p class="about__summary">Welcome to my professional portfolio. I'm a passionate web developer with expertise in creating modern, responsive websites and applications.</p>
+                
+                <div class="about__dropdown">
+                    <input type="checkbox" id="read-more" class="about__dropdown-toggle" hidden>
+                    <div class="about__dropdown-content">
+                        <p>Here's my full story:</p>
+                        <p>With 5+ years of experience in frontend development, I began my journey studying Computer Science at XYZ University. My passion for UI/UX design led me to specialize in creating intuitive user experiences.</p>
+                        <p>I've worked with startups and established companies, helping them build scalable web applications. My toolkit includes React, Vue.js, and modern CSS frameworks.</p>
+                        <p>When not coding, I contribute to open-source projects and mentor junior developers. I believe in continuous learning and currently exploring advanced backend technologies.</p>
+                    </div>
+                    <label for="read-more" class="about__dropdown-label">
+                        <span class="about__dropdown-more">Read more ▼</span>
+                        <span class="about__dropdown-less">Show less ▲</span>
+                    </label>
+                </div>
             </div>
         </section>
 
