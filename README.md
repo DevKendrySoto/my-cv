@@ -3,7 +3,7 @@
 # Professional CV Portfolio - Key Features
 
 ## 🌟 Core Highlights
-- **Modern UI**: Clean, professional design with dark/light mode
+- **Modern UI**: Clean, professional design
 - **Interactive Elements**: Smooth animations and hover effects
 - **Responsive**: Fully mobile-friendly layout
 
@@ -16,7 +16,6 @@ HTML5 | CSS3 | JavaScript
 - System preference detection
 
 ## 🎨 Design Features
-- Dynamic dark mode toggle
 - Scroll-triggered animations
 - Professional color scheme
 
@@ -27,5 +26,3 @@ Optimized for all devices (mobile to desktop)
 1. Clone repository
 2. Edit `index.html` content
 3. Customize colors in CSS variables
-
-> "Professional portfolio ready in minutes"
